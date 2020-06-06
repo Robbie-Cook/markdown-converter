@@ -1,4 +1,6 @@
-# Markdown to HTML
+# HTML -> Markdown Converter
+
+https://img.shields.io/github/issues/Robbie-Cook/markdown-converter
 
 ## Live site
 
