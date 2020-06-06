@@ -212,6 +212,12 @@ function App() {
           <a href="mailto:robbie@robbie.pw" target="_blank">
             robbie@robbie.pw
           </a>
+          , and consider opening an issue{" "}
+          <a href="https://github.com/Robbie-Cook/markdown-converter/issues">
+            here
+          </a>
+          .
+          {" "}<a href="https://github.com/Robbie-Cook/markdown-converter">GitHub link</a>
           .
         </p>
       </footer>
