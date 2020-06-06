@@ -8,6 +8,7 @@ import TurndownService from "turndown";
 import ReactMarkdown from "react-markdown";
 import AceEditor from "react-ace";
 import Button from "@material-ui/core/Button";
+import "ace-builds/src-noconflict/theme-github";
 
 const MOBILE_BREAKPOINT = "1520px";
 
@@ -134,7 +135,7 @@ function App() {
               style={{
                 border: "1px solid #9f9f9f",
               }}
-              className="monokai"
+              className="github"
               value={htmlString ?? undefined}
               onChange={(change) => {
                 const markdown = convertHtmltoMd(change);
@@ -183,7 +184,7 @@ function App() {
                   style={{
                     border: "1px solid #9f9f9f",
                   }}
-                  className="monokai"
+                  className="github"
                   name="md-textarea"
                   editorProps={{ $blockScrolling: true }}
                   value={markdownString ?? undefined}
