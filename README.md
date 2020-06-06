@@ -1,6 +1,7 @@
 # HTML -> Markdown Converter
 
 [![GitHub issues](https://img.shields.io/github/issues/Robbie-Cook/markdown-converter?style=flat-square)](https://github.com/Robbie-Cook/markdown-converter/issues)
+[![GitHub license](https://img.shields.io/github/license/Robbie-Cook/markdown-converter)](https://github.com/Robbie-Cook/markdown-converter)
 
 ## Live site
 
