@@ -87,7 +87,7 @@ function App() {
           body {
             background: white;
             box-sizing: border-box;
-          }\
+          }
         `}
       />
       <div
@@ -152,7 +152,9 @@ function App() {
               </MyButton>
               <MyButton
                 onClick={() => {
-                  downloadString(markdownString, "markdown.md");
+                  if (markdownString) {
+                    downloadString(markdownString, "markdown.md");
+                  }
                 }}
               >
                 Download text as .md file
