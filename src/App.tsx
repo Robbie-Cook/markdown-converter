@@ -217,9 +217,8 @@ function App() {
             here
           </a>
           .
-          {" "}<a href="https://github.com/Robbie-Cook/markdown-converter">GitHub link</a>
-          .
         </p>
+        <p><a href="https://github.com/Robbie-Cook/markdown-converter">GitHub link</a></p>
       </footer>
     </div>
   );
