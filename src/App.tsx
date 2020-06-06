@@ -9,6 +9,8 @@ import ReactMarkdown from "react-markdown";
 import AceEditor from "react-ace";
 import Button from "@material-ui/core/Button";
 
+const MOBILE_BREAKPOINT = "1520px";
+
 /**
  * A function to convert markdown to HTML
  */
@@ -87,6 +89,7 @@ function App() {
           body {
             background: white;
             box-sizing: border-box;
+            padding: 0 30px;
           }
         `}
       />
@@ -94,7 +97,8 @@ function App() {
         className="content-wrapper"
         css={css`
           min-height: calc(100vh - 120px);
-          border-box
+          display: flex;
+          flex-direction: column;
         `}
       >
         <header
@@ -118,6 +122,12 @@ function App() {
             css={css`
               display: flex;
               flex-direction: row;
+
+              flex-wrap: wrap;
+
+              @media (max-width: ${MOBILE_BREAKPOINT}) {
+                flex-direction: column;
+              }
             `}
           >
             <AceEditor
@@ -139,7 +149,7 @@ function App() {
               css={css`
                 display: flex;
                 flex-direction: column;
-                margin: 0 30px;
+                margin: 20px 30px;
               `}
             >
               <MyButton
