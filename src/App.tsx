@@ -151,9 +151,8 @@ function App() {
                 Show {previewMarkdown ? "Raw" : "Rich Markdown"}
               </MyButton>
               <MyButton
-                onClick={(e) => {
-                  const text = e.currentTarget?.value;
-                  downloadString(text, "markdown.md");
+                onClick={() => {
+                  downloadString(markdownString, "markdown.md");
                 }}
               >
                 Download text as .md file
