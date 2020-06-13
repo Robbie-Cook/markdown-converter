@@ -10,7 +10,7 @@ import AceEditor from "react-ace";
 import Button from "@material-ui/core/Button";
 import "ace-builds/src-noconflict/theme-github";
 
-const MOBILE_BREAKPOINT = "1520px";
+const MOBILE_BREAKPOINT = "820px";
 
 /**
  * A function to convert markdown to HTML
